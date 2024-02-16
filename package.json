@@ -1,0 +1,35 @@
+{
+  "name": "api-breakingnews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "nodemon --no-warnings server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiag0liveira/api-breakingnews"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiag0liveira/api-breakingnews/issues"
+  },
+  "homepage": "https://github.com/hiag0liveira/api-breakingnews#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "4.1",
+    "mongoose": "^6.2.10",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
