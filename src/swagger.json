@@ -19,8 +19,8 @@
       "description": "Local"
     },
     {
-      "url": "https://breakingnews.herokuapp.com",
-      "description": "Heroku"
+      "url": "https://breaking-news-rho.vercel.app/",
+      "description": "Vercel"
     }
   ],
   "paths": {
